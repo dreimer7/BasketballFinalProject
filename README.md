@@ -1,8 +1,18 @@
-# Predicting Star-Level Contracts in the NBA
+# 🏀 Predicting Star-Level Contracts in the NBA
+This project analyzes how well an NBA player’s first two seasons predict their long-term financial value. Using statistical modeling and scraped salary data, the project examines which early-career performance metrics are most associated with reaching a “star-level” contract.
 
-This project's goal is to determine which early career performance factors lead to a "star-level" contract during a player's career.
+## ❓ Research Question
+Which early-career performance factors lead to a star-level contract during a player’s career?
 
-Definitions:
+## 📊 Data Sources
+- Player statistics sourced from Basketball-Reference  
+- Salary data scraped from team-season pages (1991–2024)  
+- Player statistics scraped using Gabriel Pastorello's [BRScraper](https://github.com/GabrielPastorello/BRScraper) (Basketball-Reference)
+
+## 🔎 Key Finding
+Second-year performance and overall production (e.g., points, minutes, impact metrics) are stronger predictors of future salary than efficiency or short-term improvement.
+
+## 📖 Definitions:
 - "Star-level" contract: A contract that is greater than 20% of the salary cap for the given year
 - Player: Player's name
 - Pick: The draft pick # the player was selected with
