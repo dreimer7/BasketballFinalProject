@@ -65,9 +65,13 @@ Which early-career performance factors lead to a star-level contract during a pl
 
 ## 📈 Model Performance
 Lasso/Ridge/PCA: R^2 of .47
+
 Classification Tree: R^2 of .886
+
 Gradient Boosting: R^2 of .891
+
 Random Forest: R^2 of .897
+
 
 Most influential variables across models: PTS_Y2, PER_Y2, MP_pg_Y2, VORP_Y2
 
