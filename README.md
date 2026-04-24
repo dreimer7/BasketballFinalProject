@@ -2,20 +2,12 @@
 This project analyzes how well an NBA player’s first two seasons predict their long-term financial value. Using statistical modeling and scraped salary data, the project examines which early-career performance metrics are most associated with reaching a “star-level” contract.
 
 ## 🔢 Table of Contents
-1. Research Question
-2. Data Sources
-3. How to Run
+1. How to Run
+2. Research Question
+3. Data Sources
 4. Definitions
-5. Key Finding
-6. Contact
-
-## ❓ Research Question
-Which early-career performance factors lead to a star-level contract during a player’s career?
-
-## 📊 Data Sources
-- Player statistics sourced from Basketball-Reference  
-- Salary data scraped from team-season pages (1991–2024)  
-- Player statistics scraped using Gabriel Pastorello's [BRScraper](https://github.com/GabrielPastorello/BRScraper)
+5. Model Performance
+6. Key Finding
 
 ## ▶️ How to Run
 
@@ -32,6 +24,13 @@ This project is designed to run in **Google Colab**, and all required packages a
 **⚠️ Notes**
 - No local setup is required  
 - A pre-collected dataset is included for faster execution  
+
+## ❓ Research Question
+Which early-career performance factors lead to a star-level contract during a player’s career?
+
+## 📊 Data Sources
+- Player statistics sourced from Basketball-Reference using Gabriel Pastorello's [BRScraper](https://github.com/GabrielPastorello/BRScraper)
+- Player contract information scraped from Basketball-Reference by searching each team-season page and matching the player's PeakSalaryPercent (see Definitions) to their row 
 
 ## 📖 Definitions:
 - **"Star-level" contract**: A contract that is greater than 20% of the salary cap for the given year
@@ -66,7 +65,3 @@ This project is designed to run in **Google Colab**, and all required packages a
 
 ## 🔎 Key Finding
 Second-year performance and overall production (e.g., points, minutes, impact metrics) are stronger predictors of future salary than efficiency or short-term improvement.
-
-## 📞 Contact
-- 📧 Email: milowessel@icloud.com
-- 🌐 LinkedIn: https://www.linkedin.com/in/milo-wessel
