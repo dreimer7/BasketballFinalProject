@@ -63,5 +63,8 @@ Which early-career performance factors lead to a star-level contract during a pl
 - **"_Y2"**: Variables ending in "_Y2" correspond to the player's second year in the NBA (ex: VORP_Y2)
 - **"_jump_1_2"**: Variables ending in "_jump_1_2" are the difference between the player's first and second year (ex: USG%_jump_1_2 = USG%_Y2 - USG%_Y1)
 
+## 📈 Model Performance
+
+
 ## 🔎 Key Finding
 Second-year performance and overall production (e.g., points, minutes, impact metrics) are stronger predictors of future salary than efficiency or short-term improvement.
