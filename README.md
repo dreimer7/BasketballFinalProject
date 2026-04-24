@@ -64,7 +64,12 @@ Which early-career performance factors lead to a star-level contract during a pl
 - **"_jump_1_2"**: Variables ending in "_jump_1_2" are the difference between the player's first and second year (ex: USG%_jump_1_2 = USG%_Y2 - USG%_Y1)
 
 ## 📈 Model Performance
+Lasso/Ridge/PCA: R^2 of .47
+Classification Tree: R^2 of .886
+Gradient Boosting: R^2 of .891
+Random Forest: R^2 of .897
 
+Most influential variables across models: PTS_Y2, PER_Y2, MP_pg_Y2, VORP_Y2
 
 ## 🔎 Key Finding
 Second-year performance and overall production (e.g., points, minutes, impact metrics) are stronger predictors of future salary than efficiency or short-term improvement.
